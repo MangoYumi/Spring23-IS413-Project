@@ -1,0 +1,50 @@
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: #dda0dd;
+}
+
+.label {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+}
+
+.table-view {
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: #d3d3d3;
+    -fx-padding: 5px;
+    -fx-font-weight: bold;
+}
+
+.table-view .cell {
+    -fx-padding: 0px;
+    -fx-alignment: center;
+}
+
+.text-field {
+    -fx-pref-width: 150px;
+    -fx-pref-height: 25px;
+    -fx-font-size: 12px;
+}
+
+.button {
+    -fx-pref-width: 80px;
+    -fx-pref-height: 25px;
+    -fx-font-size: 12px;
+}
+
+.button-bar {
+    -fx-spacing: 5px;
+}
+
+.button-bar .button {
+    -fx-min-width: 0;
+}
+
+.text-input-dialog .dialog-pane {
+    -fx-font-size: 14px;
+}
